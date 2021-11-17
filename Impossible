@@ -342,6 +342,8 @@ def start():
                             win = True
                             break
                 else:
+                    for row in tic_tac_screen:
+                        print(row)
                     print("Tie Game")
                     win = True
 
