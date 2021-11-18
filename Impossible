@@ -232,6 +232,30 @@ def start():
             elif (6 in player_moves) and (8 in player_moves) and (5 not in computer_moves):
                 computer_moves.append(5)
                 comp()
+            elif (1 in player_moves) and (8 in player_moves) and (5 not in computer_moves):
+                computer_moves.append(5)
+                comp()
+            elif (3 in player_moves) and (8 in player_moves) and (5 not in computer_moves):
+                computer_moves.append(5)
+                comp()
+            elif (2 in player_moves) and (7 in player_moves) and (5 not in computer_moves):
+                computer_moves.append(5)
+                comp()
+            elif (2 in player_moves) and (9 in player_moves) and (5 not in computer_moves):
+                computer_moves.append(5)
+                comp()
+            elif (3 in player_moves) and (4 in player_moves) and (5 not in computer_moves):
+                computer_moves.append(5)
+                comp()
+            elif (4 in player_moves) and (9 in player_moves) and (5 not in computer_moves):
+                computer_moves.append(5)
+                comp()
+            elif (1 in player_moves) and (6 in player_moves) and (5 not in computer_moves):
+                computer_moves.append(5)
+                comp()
+            elif (6 in player_moves) and (7 in player_moves) and (5 not in computer_moves):
+                computer_moves.append(5)
+                comp()
             elif (5 in player_moves) and (1 in player_moves) and (9 in computer_moves) and (7 not in computer_moves):
                 computer_moves.append(7)
                 comp()
