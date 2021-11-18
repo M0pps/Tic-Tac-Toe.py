@@ -220,6 +220,18 @@ def start():
             elif (5 in player_moves) and (7 in player_moves) and (3 not in computer_moves):
                 computer_moves.append(3)
                 comp()
+            elif (5 in player_moves) and (1 in player_moves) and (9 in computer_moves) and (7 not in computer_moves):
+                computer_moves.append(7)
+                comp()
+            elif (5 in player_moves) and (3 in player_moves) and (7 in computer_moves) and (9 not in computer_moves):
+                computer_moves.append(9)
+                comp()
+            elif (5 in player_moves) and (9 in player_moves) and (1 in computer_moves) and (3 not in computer_moves):
+                computer_moves.append(3)
+                comp()
+            elif (5 in player_moves) and (7 in player_moves) and (3 in computer_moves) and (1 not in computer_moves):
+                computer_moves.append(1)
+                comp()
             else:
                 comp_gen = False
                 while not comp_gen:
